@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Wildlife Art Prints - Stunning wildlife-inspired art prints for nature lovers">
+  <title>Wildlife Art Prints</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #4b9e7f;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+header h1 {
+  font-family: 'Lora', serif;
+  font-size: 32px;
+  margin: 0;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero {
+  background-image: url('mam6.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: ghostwhite;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero .btn-primary {
+  background-color: #3b7a57;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.categories {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.categories h2 {
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  color: #4b9e7f; 
+  margin-bottom: 30px;
+}
+
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.category-item {
+  background-color: #ffffff;
+  border: 2px solid #dcdcdc; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 350px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.category-item h3 {
+  font-family: 'Lora', serif;
+  font-size: 24px;
+  color: #4b9e7f;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.category-item img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 8px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.category-item img:hover {
+  opacity: 0.85; 
+}
+
+@media (max-width: 768px) {
+  .categories {
+    padding: 40px 10px;
+  }
+
+  .category-item {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .categories h2 {
+    font-size: 28px; 
+  }
+
+  .category-item h3 {
+    font-size: 20px; 
+  }
+}
+
+
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.product-item {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+}
+
+.product-item h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.product-item .btn-secondary {
+  background-color: #3b7a57;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #4b9e7f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .social-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer .social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+footer .social-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+    </style>
+
+  
+  <header>
+    <div class="logo">
+      <h1>WAP</h1>
+      <p>Wildlife Art Prints</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Birds</a></li>
+        <li><a href="#">Mammals</a></li>
+        <li><a href="#">Marine Life</a></li>
+        <li><a href="#">Insects</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Discover the Beauty of Nature</h2>
+      <p>Shop stunning wildlife art prints that bring the beauty of the wild into your home.</p>
+      <a href="#" class="btn-primary">Shop Now</a>
+    </div>
+  </section>
+
+ 
+    <section class="categories">
+        <h2>Explore Our Categories</h2>
+        <div class="category-list">
+          <div class="category-item">
+            <h3>Birds</h3>
+            <img src="bird1.jpeg" alt="Bird Art Prints">
+          </div>
+          <div class="category-item">
+            <h3>Mammals</h3>
+            <img src="mam1.jpeg" alt="Mammal Art Prints">
+          </div>
+          <div class="category-item">
+            <h3>Marine Life</h3>
+            <img src="marine4.jpeg" alt="Marine Art Prints">
+          </div>
+          <div class="category-item">
+            <h3>Insects</h3>
+            <img src="insect5.jpeg" alt="Insect Art Prints">
+          </div>
+        </div>
+    </section>
+
+
+
+  <!-- Featured Products Section -->
+  <section class="products">
+    <h2>Featured Art Prints</h2>
+    <div class="product-grid">
+      <div class="product-item">
+        <img src="Parrot.jpeg" alt="Bird Art Print">
+        <h3>Colorful Parrot</h3>
+        <p>$45.00</p>
+        <a href="#" class="btn-secondary">View Details</a>
+      </div>
+      <div class="product-item">
+        <img src="mam5.jpeg" alt="Tiger Art Print">
+        <h3>Majestic Tiger</h3>
+        <p>$50.00</p>
+        <a href="#" class="btn-secondary">View Details</a>
+      </div>
+      <div class="product-item">
+        <img src="marine1.jpeg" alt="Whale Art Print">
+        <h3>Blue Whale</h3>
+        <p>$60.00</p>
+        <a href="#" class="btn-secondary">View Details</a>
+      </div>
+      <div class="product-item">
+        <img src="insect3.jpeg" alt="Butterfly Art Print">
+        <h3>Vibrant Butterfly</h3>
+        <p>$40.00</p>
+        <a href="#" class="btn-secondary">View Details</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; Adeline Wildlife Art Prints | All Rights Reserved</p>
+      <ul class="social-links">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
